@@ -6,7 +6,7 @@
     "webpack-cli": "^2.0.14"
   },
   "scripts": {
-    "build": "webpack",
+    "build": "webpack --mode development",
     "serve": "http-server . -o",
     "start": "npm run build && npm run serve"
   }
